@@ -1,6 +1,6 @@
 package Models;
 
-import Services.Position;
+import Enums.Position;
 
 import java.util.Arrays;
 

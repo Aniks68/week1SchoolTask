@@ -1,4 +1,4 @@
-package Services;
+package Enums;
 
 public enum Position {
     BURSAR(65000, "Finance management"),

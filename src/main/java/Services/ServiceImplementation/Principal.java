@@ -1,10 +1,10 @@
-package Services.ModelServices;
+package Services.ServiceImplementation;
 
 import Models.Applicant;
 import Models.Staff;
 import Models.Student;
 import Services.ManagementDuties;
-import Services.Position;
+import Enums.Position;
 
 import java.util.Objects;
 

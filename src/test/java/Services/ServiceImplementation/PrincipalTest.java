@@ -1,8 +1,8 @@
-package Services.ModelServices;
+package Services.ServiceImplementation;
 
 import Models.Applicant;
 import Models.Student;
-import Services.Grade;
+import Enums.Grade;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

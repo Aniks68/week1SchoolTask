@@ -1,4 +1,4 @@
-package Services;
+package Enums;
 
 public enum Grade {
     GRADE1(1, 72500), GRADE2(2, 72500),

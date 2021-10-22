@@ -1,8 +1,8 @@
 import Models.AcadStaff;
 import Models.Student;
-import Services.Grade;
-import Services.ModelServices.Principal;
-import Services.Position;
+import Enums.Grade;
+import Services.ServiceImplementation.Principal;
+import Enums.Position;
 
 import java.util.Locale;
 
@@ -12,7 +12,7 @@ public class Main {
         Student biodun = new Student("Abiodun Oluwafemi", 13, "CITEC Villas, Gwarinpa",
                 Grade.GRADE1.getGrade(), Grade.GRADE1.getGradeFee(), new String[]{"Maths", "English", "Sciences"}, "Satisfactory", 67.03);
 //        Student musa = new Student("Musa Gabriel", 15, "Maroko PW, Kubwa", Grade.GRADE5.getGrade(), Grade.GRADE5.getGradeFee(), new String[]{"Maths", "English", "Commercial Subjects"});
-//        System.out.println(musa.toString());
+
 
         System.out.println(biodun.toString());
 
